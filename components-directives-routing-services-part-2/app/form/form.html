@@ -1,0 +1,11 @@
+<!-- When the form is submitted, it calls the saveWords method from the controller -->
+<!-- The argument is the $ctrl.words object -->
+<form ng-submit="$ctrl.saveWords($ctrl.words);">
+  <input type="text" placeholder="Enter a word" ng-model="$ctrl.words.word1">
+  <input type="text" placeholder="Enter a word" ng-model="$ctrl.words.word2">
+  <input type="text" placeholder="Enter a word" ng-model="$ctrl.words.word3">
+  <input type="text" placeholder="Enter a word" ng-model="$ctrl.words.word4">
+  <input type="text" placeholder="Enter a word" ng-model="$ctrl.words.word5">
+  <input type="text" placeholder="Enter a word" ng-model="$ctrl.words.word6">
+  <button>See</button>
+</form>
