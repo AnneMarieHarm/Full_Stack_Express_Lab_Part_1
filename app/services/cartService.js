@@ -1,11 +1,11 @@
 "use strict";
 function cartService($http) {
     const self = this;
-    self.getService = () => {
+    self.getAllItems = () => {
         return $http({
             method: "GET",
-            url: "/phrases"
-            };
+            url: "/items"
+            });
         };
     };
 
